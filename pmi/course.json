@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "course_id": "sfedu-cs-pmi",
+  "track": "ПМИ",
+  "language": "ru",
+  "python": "3.11+",
+  "student_workflow": "fork",
+  "grading_service": {
+    "status": "not_connected",
+    "url": null
+  },
+  "assignments": [
+    {
+      "id": "pmi-lab01",
+      "path": "lab01",
+      "title": "Введение в Computer Science и вычисления",
+      "status": "published",
+      "version": "1.0.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md",
+        "main.py"
+      ],
+      "grading": {
+        "mode": "public_tests_and_review",
+        "public_test_count": 6,
+        "test_directory": "lab01/tests"
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab02",
+      "path": "lab02",
+      "title": "Git и GitHub как система контроля версий",
+      "status": "published",
+      "version": "1.0.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md",
+        "NOTES.md"
+      ],
+      "grading": {
+        "mode": "manual",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab03",
+      "path": "lab03",
+      "title": "Воркшоп по Git",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab04",
+      "path": "lab04",
+      "title": "Повторение Python для обработки данных",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab05",
+      "path": "lab05",
+      "title": "Текстовые файлы",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab06",
+      "path": "lab06",
+      "title": "Файловая система в Python",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab07",
+      "path": "lab07",
+      "title": "Форматы хранения данных",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab08",
+      "path": "lab08",
+      "title": "Минимально необходимый NumPy",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab09",
+      "path": "lab09",
+      "title": "Введение в pandas",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab10",
+      "path": "lab10",
+      "title": "Преобразование и очистка данных в pandas",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab11",
+      "path": "lab11",
+      "title": "Агрегирование и объединение данных в pandas",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab12",
+      "path": "lab12",
+      "title": "Matplotlib",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab13",
+      "path": "lab13",
+      "title": "Seaborn и Plotly",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "pmi-lab14",
+      "path": "lab14",
+      "title": "Воспроизводимый анализ данных",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    }
+  ],
+  "repository_subdirectory": "pmi"
+}

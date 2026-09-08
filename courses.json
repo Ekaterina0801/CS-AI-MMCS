@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "repository": "Ekaterina0801/CS-AI-MMCS",
+  "courses": [
+    {
+      "id": "sfedu-cs-pmi",
+      "manifest": "pmi/course.json"
+    },
+    {
+      "id": "sfedu-cs-fiit",
+      "manifest": "fiit/course.json"
+    }
+  ],
+  "grading_service": {
+    "status": "not_connected",
+    "url": null
+  }
+}

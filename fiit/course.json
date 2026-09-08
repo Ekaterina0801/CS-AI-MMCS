@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "course_id": "sfedu-cs-fiit",
+  "track": "ФИИТ",
+  "language": "ru",
+  "python": "3.11+",
+  "student_workflow": "fork",
+  "grading_service": {
+    "status": "not_connected",
+    "url": null
+  },
+  "assignments": [
+    {
+      "id": "fiit-lab01",
+      "path": "lab01",
+      "title": "Введение в Computer Science и вычисления",
+      "status": "published",
+      "version": "1.0.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md",
+        "main.py"
+      ],
+      "grading": {
+        "mode": "public_tests_and_review",
+        "public_test_count": 5,
+        "test_directory": "lab01/tests"
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab02",
+      "path": "lab02",
+      "title": "Git и GitHub",
+      "status": "published",
+      "version": "1.0.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md",
+        "NOTES.md"
+      ],
+      "grading": {
+        "mode": "manual",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab03",
+      "path": "lab03",
+      "title": "Алгоритмическое мышление и основы Python",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab04",
+      "path": "lab04",
+      "title": "Функции и списки",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab05",
+      "path": "lab05",
+      "title": "Работа с файлами и табличными записями",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab06",
+      "path": "lab06",
+      "title": "Словари и множества",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab07",
+      "path": "lab07",
+      "title": "NumPy I",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab08",
+      "path": "lab08",
+      "title": "NumPy II",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab09",
+      "path": "lab09",
+      "title": "pandas I",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab10",
+      "path": "lab10",
+      "title": "pandas II",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab11",
+      "path": "lab11",
+      "title": "pandas III",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab12",
+      "path": "lab12",
+      "title": "pandas IV",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab13",
+      "path": "lab13",
+      "title": "Визуализация данных в Matplotlib",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    },
+    {
+      "id": "fiit-lab14",
+      "path": "lab14",
+      "title": "Простой анализ данных",
+      "status": "draft",
+      "version": "0.1.0",
+      "required_files": [
+        "README.md",
+        "REPORT.md"
+      ],
+      "grading": {
+        "mode": "not_configured",
+        "public_test_count": null,
+        "test_directory": null
+      },
+      "deadline": null
+    }
+  ],
+  "repository_subdirectory": "fiit"
+}

@@ -23,11 +23,12 @@
         "task03.py",
         "task04.py",
         "task05.py",
-        "task06.py"
+        "task06.py",
+        "task07.py"
       ],
       "grading": {
         "mode": "public_tests_and_review",
-        "tests": 18,
+        "tests": 21,
         "auto_points": 8,
         "defense_points": 2
       },

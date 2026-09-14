@@ -12,7 +12,9 @@
     }
   ],
   "grading_service": {
-    "status": "not_connected",
-    "url": null
-  }
+    "status": "active",
+    "url": null,
+    "note": "Адрес сервиса проверки сообщает преподаватель"
+  },
+  "materials": "materials/README.md"
 }

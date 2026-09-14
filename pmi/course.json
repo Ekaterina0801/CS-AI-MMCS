@@ -6,45 +6,56 @@
   "python": "3.11+",
   "student_workflow": "fork",
   "grading_service": {
-    "status": "not_connected",
-    "url": null
+    "status": "active",
+    "url": null,
+    "note": "Адрес сервиса проверки сообщает преподаватель"
   },
   "assignments": [
     {
       "id": "pmi-lab01",
       "path": "lab01",
-      "title": "Введение в Computer Science и вычисления",
+      "title": "Первые программы на Python",
       "status": "published",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "required_files": [
-        "README.md",
         "REPORT.md",
-        "main.py"
+        "task01.py",
+        "task02.py",
+        "task03.py",
+        "task04.py",
+        "task05.py",
+        "task06.py"
       ],
       "grading": {
         "mode": "public_tests_and_review",
-        "public_test_count": 6,
-        "test_directory": "lab01/tests"
+        "tests": 18,
+        "auto_points": 8,
+        "defense_points": 2
       },
-      "deadline": null
+      "deadline": null,
+      "submission": "upload",
+      "max_score": 10
     },
     {
       "id": "pmi-lab02",
       "path": "lab02",
-      "title": "Git и GitHub как система контроля версий",
+      "title": "Git и GitHub",
       "status": "published",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "required_files": [
-        "README.md",
-        "REPORT.md",
-        "NOTES.md"
+        "NOTES.md",
+        "REPORT.md"
       ],
       "grading": {
         "mode": "manual",
-        "public_test_count": null,
-        "test_directory": null
+        "git_history": true,
+        "auto_points": 8,
+        "defense_points": 2
       },
-      "deadline": null
+      "deadline": null,
+      "work_directory": "lab02",
+      "submission": "repo",
+      "max_score": 10
     },
     {
       "id": "pmi-lab03",

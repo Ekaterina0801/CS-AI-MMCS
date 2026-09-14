@@ -44,7 +44,7 @@
 |---|---|
 | `Describe local Git states` | `update` |
 | `Explain Git and GitHub` | `фикс` |
-| `Add lab02 report` | `1`, `asdf`, `готово` |
+| `List Git commands used` | `1`, `asdf`, `готово` |
 
 Одно сообщение — одно законченное изменение. Сервис считает «update», «фикс» и подобное
 неинформативными.

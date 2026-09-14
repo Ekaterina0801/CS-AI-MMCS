@@ -18,7 +18,6 @@
       "status": "published",
       "version": "2.0.0",
       "required_files": [
-        "REPORT.md",
         "task01.py",
         "task02.py",
         "task03.py",
@@ -43,8 +42,7 @@
       "status": "published",
       "version": "2.0.0",
       "required_files": [
-        "NOTES.md",
-        "REPORT.md"
+        "NOTES.md"
       ],
       "grading": {
         "mode": "manual",
@@ -64,8 +62,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -81,8 +78,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -98,8 +94,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -115,8 +110,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -132,8 +126,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -149,8 +142,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -166,8 +158,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -183,8 +174,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -200,8 +190,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -217,8 +206,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -234,8 +222,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",
@@ -251,8 +238,7 @@
       "status": "draft",
       "version": "0.1.0",
       "required_files": [
-        "README.md",
-        "REPORT.md"
+        "README.md"
       ],
       "grading": {
         "mode": "not_configured",

@@ -9,11 +9,17 @@
      рабочая папка        индекс     история      GitHub
 ```
 
+## Работа с веткой
+
+```
+git switch -c ветка → правка → add → commit → git switch main → git merge --no-ff ветка → git push
+```
+
 ## Команды
 
 | Задача | Команда |
 |---|---|
-| скачать свой fork | `git clone YOUR_FORK_URL cs-practice` |
+| скачать свой пустой репозиторий | `git clone YOUR_REPO_URL cs-practice` |
 | задать автора коммитов | `git config user.name "Имя"` · `git config user.email "почта"` |
 | что изменилось | `git status` · короче: `git status --short` |
 | что изменено, но не подготовлено | `git diff` |
@@ -21,11 +27,18 @@
 | подготовить файл | `git add lab02/NOTES.md` |
 | зафиксировать | `git commit -m "Что изменилось"` |
 | история | `git log --oneline` · последние три: `git log --oneline -3` |
+| назвать основную ветку `main` | `git branch -M main` (после первого коммита) |
 | текущая ветка | `git branch --show-current` |
+| создать ветку и перейти в неё | `git switch -c explain-branches` |
+| список веток | `git branch` |
+| вернуться в `main` | `git switch main` |
+| слить ветку с коммитом слияния | `git merge --no-ff explain-branches` |
+| история всех веток графом | `git log --oneline --graph --all` |
+| удалить слитую ветку | `git branch -d explain-branches` |
 | адреса удалённых репозиториев | `git remote -v` |
-| отправить на GitHub | `git push origin main` |
+| первая отправка | `git push -u origin main` |
+| следующие отправки | `git push` |
 | полный SHA сдаваемой версии | `git rev-parse HEAD` |
-| получить обновления после Sync fork | `git pull --ff-only` |
 
 ## `git status --short`
 
@@ -45,6 +58,7 @@
 | `Describe local Git states` | `update` |
 | `Explain Git and GitHub` | `фикс` |
 | `List Git commands used` | `1`, `asdf`, `готово` |
+| `Explain branches` | `ветка` |
 
 Одно сообщение — одно законченное изменение. Сервис считает «update», «фикс» и подобное
 неинформативными.
@@ -60,5 +74,10 @@
 | `push` просит пароль и не принимает его | пароль аккаунта не подходит для Git | вход через браузер или токен |
 | `rejected … fetch first` | на GitHub есть коммиты, которых нет у вас | обратитесь к преподавателю, **не** делайте `--force` |
 | коммиты не видны на GitHub | не выполнили `push` | `git push origin main` |
-| сервис не видит ваших коммитов | сделан `git init` внутри клона | работайте в клоне fork без `init` |
+| сервис не видит ваших коммитов | сделан `git init` внутри клона | работайте в клоне без `init` |
+| `src refspec main does not match any` | ветка называется `master` | `git branch -M main`, затем `push` |
+| «Репозиторий недоступен» в сервисе | репозиторий создан как Private | Settings → Change visibility → Public |
+| в `main` нет правки из ветки | ветка ещё не слита | `git switch main`, затем `git merge --no-ff ветка` |
+| после `merge` нет коммита слияния | Git сделал fast-forward | в следующий раз `--no-ff`; сейчас — ещё одна ветка с правкой и слияние с `--no-ff` |
+| `switch` отказывается переключаться | есть незакоммиченные правки | закоммитьте их, затем переключайтесь |
 | открылся экран с `:` и не выходит | просмотрщик `log` | нажмите `q` |

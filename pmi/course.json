@@ -102,17 +102,25 @@
       "id": "pmi-lab05",
       "path": "lab05",
       "title": "Текстовые файлы",
-      "status": "draft",
-      "version": "0.1.0",
+      "status": "published",
+      "version": "1.0.0",
       "required_files": [
-        "README.md"
+        "logstats.py",
+        "main.py",
+        "events.log",
+        "events-small.log",
+        "report.txt"
       ],
       "grading": {
-        "mode": "not_configured",
-        "public_test_count": null,
-        "test_directory": null
+        "mode": "public_tests_and_review",
+        "tests": 12,
+        "auto_points": 8,
+        "defense_points": 2
       },
-      "deadline": null
+      "deadline": null,
+      "submission": "repo",
+      "max_score": 10,
+      "work_directory": "lab05"
     },
     {
       "id": "pmi-lab06",

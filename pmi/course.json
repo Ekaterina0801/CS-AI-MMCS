@@ -126,17 +126,21 @@
       "id": "pmi-lab06",
       "path": "lab06",
       "title": "Файловая система в Python",
-      "status": "draft",
-      "version": "0.1.0",
+      "status": "published",
+      "version": "1.0.0",
       "required_files": [
-        "README.md"
+        "solution.py"
       ],
       "grading": {
-        "mode": "not_configured",
-        "public_test_count": null,
-        "test_directory": null
+        "mode": "public_tests_and_review",
+        "tests": 11,
+        "auto_points": 8,
+        "defense_points": 2
       },
-      "deadline": null
+      "deadline": null,
+      "submission": "repo",
+      "max_score": 10,
+      "work_directory": "lab06"
     },
     {
       "id": "pmi-lab07",
